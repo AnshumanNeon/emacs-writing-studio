@@ -84,6 +84,11 @@
 
 (set-frame-parameter nil 'fullscreen 'fullboth)
 
+;; M is cmd key
+
+(setq mac-option-modifier nil
+      mac-command-modifier 'meta)
+
 ;; Short answers only please
 
 (setq-default use-short-answers t)
