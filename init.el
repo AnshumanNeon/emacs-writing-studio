@@ -108,6 +108,10 @@
   (line-spacing 3)
   (spacious-padding-mode 1))
 
+;; load hydras
+
+(load-file "./hydras.el")
+
 ;; Modus and EF Themes
 
 (use-package modus-themes
